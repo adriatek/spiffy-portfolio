@@ -10,20 +10,20 @@
 }
 
 .headerText {
-    font-size: 4rem;
+    font-size: 3.8rem;
     writing-mode: vertical-rl;
     text-orientation: upright;
     letter-spacing: -0.5ch;
     font-weight: 800;
     text-align: center;
     text-shadow:
-            0.03em 0.03em 0 #00b4d8,
+            0.03em 0.03em 0 #62b6cb,
             /* aqua blue */
-            0.06em 0.06em 0 #6124ef,
+            0.06em 0.06em 0 #5348b9,
             /* rich indigo */
-            0.09em 0.09em 0 #00c896,
+            0.09em 0.09em 0 #06daa5,
             /* teal green */
-            0.12em 0.12em 0 #02a95c;
+            0.12em 0.12em 0 #f9c74f;
         /* deep green */
         /* deep green */
 }
@@ -44,7 +44,7 @@
 }
 
 .icons:hover {
-    color: #e63946;
+    color: #7678ed;
     transform: scale(1.1);
     text-shadow: 0.03em 0.03em 0 white;
 }

@@ -21,8 +21,7 @@
 .paragraph {
     border: 1px solid #0f172a;
     padding: 8px;
-    font-weight: 00;
-    font-size: 0.75rem;
+    font-size: 0.875rem;
     line-height: 1.25rem;
 }
 
@@ -44,10 +43,13 @@
 
     .sectionContent {
         grid-template-columns: repeat(3, minmax(0, 1fr));
+
     }
 
     .paragraph {
-        padding: 20px
+        font-size: 0.95rem;
+        padding: 25px;
+        line-height: 1.3rem;
     }
 
     .icons {

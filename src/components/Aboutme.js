@@ -1,6 +1,9 @@
 import React from 'react'
 import styles from './aboutme.module.css'
 import SectionIntroduction from './SectionIntroduction'
+import * as motion from "motion/react-client"
+
+
 const Aboutme = () => {
   return (
       <section id="about-me" className={styles.aboutMe}>
@@ -9,18 +12,19 @@ const Aboutme = () => {
               <SectionIntroduction>ABOUT ME</SectionIntroduction>
 
               <div className={styles.sectionContent}>
-                  <p className={styles.paragraph}>I am currently a senior at <strong>Univeristy of California, Merced</strong> majoring in Computer Science and Engineering.</p>
-                  <p className={styles.paragraph}>I have <strong>Full Stack experience</strong> with a passion for designing beautiful websites with amazing functionality. </p>
-                  <p className={styles.paragraph}>I enjoy working across both front-end and back-end technologies, building applications that are not only visually appealing but also highly efficient and reliable.</p>
-                  <p className={styles.paragraph}>My experience includes creating dynamic web apps, developing APIs, and implementing responsive designs that adapt seamlessly to any device. </p>
-                  <p className={styles.paragraph}>Beyond coding, I focus on delivering user-centered solutions by combining clean design, smooth interactions, and strong technical foundations. </p>
+                  <p className={styles.paragraph}>I am currently a senior at <strong>Univeristy of California, Merced</strong> majoring in Computer Science and Engineering (2026). </p>
+                  <p className={styles.paragraph}>I have strong <strong>Full Stack Developer</strong> experience with a passion for designing innovative websites with amazing aesthetics. </p>
+                  <p className={styles.paragraph}>During summer 2025, I was sponsored by UROC to perform research in <strong>AI for Education</strong> to build an AI-powered web app for analyzing and interpreting student feedback.</p>
+                  <p className={styles.paragraph}>My current position as an AET STC @UC Merced involves troubleshooting and providing <strong>IT support</strong> to audio/visual equipment in classrooms for faculty.</p>
+                  <p className={styles.paragraph}>Beyond coding, I enjoy the great outdoors and exploring different parts of California. </p>
               </div>
 
               <div className={styles.icons}>
-                  <i class="fa-solid fa-dragon"></i>
-                  <i class="fa-solid fa-chess-bishop"></i>
-                  <i class="fa-solid fa-atom"></i>
-                  <i class="fa-solid fa-jedi"></i>
+                    <motion.div whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.8 }}> <i class="fa-solid fa-dragon"></i></motion.div>
+                    <motion.div whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.8 }}><i class="fa-solid fa-gamepad"></i></motion.div>
+                    <motion.div whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.8 }}><i class="fa-solid fa-atom"></i></motion.div>
+                    <motion.div whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.8 }}><i class="fa-solid fa-jedi"></i></motion.div>
+
               </div>
 
           </div>

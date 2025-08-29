@@ -7,10 +7,10 @@ const Header = () => {
           <h1 className={styles.headerText}>Adrian Hernandez</h1>
           <div className={styles.navItems}>
             <a href="#about-me" className={styles.anchor}>
-                  <i className={`fa-solid fa-user-astronaut ${styles.icons}`}></i>
+                  <i className={`fa-solid fa-otter ${styles.icons}`}></i>
                 </a>
             <a href="#experience" className={styles.anchor}>
-                  <i className={`fa-solid fa-graduation-cap ${styles.icons}`}></i>
+                  <i className={`fa-solid fa-certificate ${styles.icons}`}></i>
                 </a>
             <a href="#projects" className={styles.anchor}>
               <i className={`fa-solid fa-diagram-project ${styles.icons}`}></i>
@@ -22,3 +22,6 @@ const Header = () => {
 }
 
 export default Header
+
+
+
