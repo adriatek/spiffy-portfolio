@@ -16,10 +16,16 @@
     letter-spacing: -0.5ch;
     font-weight: 800;
     text-align: center;
-    text-shadow: 0.03em 0.03em 0 rgb(24, 171, 220),
-        0.06em 0.06em 0 rgb(153, 177, 64),
-        0.09em 0.09em 0 rgb(229, 50, 50),
-        0.11em 0.11em 0 rgb(205, 72, 185);
+    text-shadow:
+            0.03em 0.03em 0 #00b4d8,
+            /* aqua blue */
+            0.06em 0.06em 0 #6124ef,
+            /* rich indigo */
+            0.09em 0.09em 0 #00c896,
+            /* teal green */
+            0.12em 0.12em 0 #02a95c;
+        /* deep green */
+        /* deep green */
 }
 
 .navItems {
@@ -38,7 +44,7 @@
 }
 
 .icons:hover {
-    color: aqua;
+    color: #e63946;
     transform: scale(1.1);
     text-shadow: 0.03em 0.03em 0 white;
 }

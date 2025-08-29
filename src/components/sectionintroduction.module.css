@@ -1,0 +1,55 @@
+
+
+
+.headerText {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 40px 20px;
+
+}
+
+
+.line,
+.lineDark {
+    flex: 1;
+    height: 2px;
+    background: #0f172a;
+}
+
+.line {
+     background: #0f172a;
+}
+
+.text, 
+.textDark {
+    font-weight: 800;
+    font-size: 2.4rem;
+    -webkit-text-fill-color: transparent;
+}
+
+.text {
+    -webkit-text-stroke: 1.5px #0f172a;
+}
+
+
+
+
+.lineDark {
+    background: white;
+}
+
+
+.textDark {
+    -webkit-text-stroke: 1.5px white;
+}
+
+
+@media (min-width: 640px) {
+    .text, .textDark {
+        font-size: 4rem;
+        -webkit-text-stroke-width: 2px;
+    }
+
+}
